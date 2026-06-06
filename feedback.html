@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <section class="panel reply-panel">
+        <p class="kicker">Independent review board</p>
+
+        <h1>Feedback</h1>
+
+        <p class="message">
+          This website has reached the evaluation stage. Honest reviews are
+          highly appreciated.
+        </p>
+
+        <form
+          action="https://formspree.io/f/xqeoeyae"
+          method="POST"
+          style="max-width: 600px; margin: 40px auto; text-align: left"
+        >
+          <label>
+            <strong>Overall verdict</strong>
+          </label>
+
+          <br /><br />
+
+          <label>
+            <input type="radio" name="verdict" value="Cute" required />
+            Cute
+          </label>
+
+          <br />
+
+          <label>
+            <input type="radio" name="verdict" value="Sweet" />
+            Sweet
+          </label>
+
+          <br />
+
+          <label>
+            <input type="radio" name="verdict" value="Funny" />
+            Funny
+          </label>
+
+          <br />
+
+          <label>
+            <input type="radio" name="verdict" value="Neutral" />
+            Neutral
+          </label>
+
+          <br />
+
+          <label>
+            <input type="radio" name="verdict" value="Awkward" />
+            Awkward
+          </label>
+
+          <br />
+
+          <label>
+            <input type="radio" name="verdict" value="Creepy" />
+            Creepy
+          </label>
+
+          <br /><br />
+
+          <label>
+            <strong
+              >Would you recommend the creator continue making websites?</strong
+            >
+          </label>
+
+          <br /><br />
+
+          <select name="recommendation" style="width: 100%; padding: 12px">
+            <option>Absolutely</option>
+            <option>Maybe</option>
+            <option>Only under supervision</option>
+            <option>Please stop immediately</option>
+          </select>
+
+          <br /><br />
+
+          <label>
+            <strong>Anything you'd like to say?</strong>
+          </label>
+
+          <br /><br />
+
+          <textarea
+            name="feedback"
+            rows="8"
+            style="width: 100%; padding: 12px"
+            placeholder="Brutal honesty accepted... and recommended!!!"
+          ></textarea>
+
+          <br /><br />
+
+          <button type="submit" class="button primary">Submit Review</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

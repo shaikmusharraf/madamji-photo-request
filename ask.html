@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff8ed" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>The Request</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <nav class="nav" aria-label="Pages">
+        <a class="brand" href="./index.html">Madam Ji</a>
+        <div>
+          <a href="./index.html">Hello</a>
+          <a aria-current="page" href="./ask.html">Tiny Ask</a>
+          <a href="./reasons.html">Why</a>
+          <a href="./reply.html">Decision</a>
+        </div>
+      </nav>
+
+      <section class="panel">
+        <p class="kicker">The official application</p>
+        <h1>One photo, please?</h1>
+        <p class="message">
+          No pressure, madam ji. Just one cute picture whenever you feel like
+          it. A smile, a mirror selfie, a coffee picture, a painting-day
+          picture, anything. I will treasure it.
+        </p>
+        <p class="memory-line">
+          Since December 24, 2025 at around 2:45 PM IST, when I first met you at
+          your home, this request has been quietly building its case.
+        </p>
+        <div class="countdown" aria-label="Time since first meeting">
+          <p class="countdown-label">Since I first saw you</p>
+          <div class="countdown-grid" id="firstMeetCountdown">
+            <span><strong id="countDays">0</strong> days</span>
+            <span><strong id="countHours">0</strong> hours</span>
+            <span><strong id="countMinutes">0</strong> minutes</span>
+            <span><strong id="countSeconds">0</strong> seconds</span>
+          </div>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="./reasons.html">Read my reasons</a>
+          <a class="button secondary" href="./reply.html">Skip to reply</a>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
